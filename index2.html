@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./plugin/owl.carousel.min.css">
+    <link rel="stylesheet" href="./plugin/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="slider-area" class="owl-carousel">
+            <div style="background-image: url('./download-3.jpg');"></div>
+            <div style="background-image: url('./download-6.jpg');"></div>
+            <div style="background-image: url('./download-2.jpg');"></div>
+        </div>
+
+       <!---- <div class="nav-area">
+            <div class="nav">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Portfolio</a>
+                <a href="">Services</a>
+                <a href="">Contact</a>
+            </div>
+        </div>-->
+
+        <div class="slider-text">
+            <h2>MEGA<span>DROID</span></h2>
+            <p>Integrating <span>Tech</span> with <span>Creativity</span></p>
+            <a href="" class="btn">Learn More</a>
+            <a href="index.html" class="btn">Contact Me</a>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./plugin/jquery-3.6.4.js"></script>
+    <script src="./plugin/owl.carousel.min.js"></script>
+    <script>
+        $('#slider-area').owlCarousel({
+            loop:true,
+            autoplay:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    </script>
+</body>
+</html>

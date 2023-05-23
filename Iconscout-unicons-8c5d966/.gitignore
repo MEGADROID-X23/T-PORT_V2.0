@@ -1,0 +1,19 @@
+node_modules
+
+# Env files
+.env
+.npmrc
+
+# Fontello Build Files
+dist/
+fontello-*
+config.json
+*-duplicates.json
+
+# Build Files
+fonts/*
+script/*
+sprite/*
+css/unicons*
+css/line.css
+css/solid.css
